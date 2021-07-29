@@ -1,0 +1,41 @@
+body {
+    font-family: "Merriweather", serif;
+    font-size: 14px;
+    color: #666;
+    background-color: #fdf8f2;
+    padding: 16px;
+}
+
+.container {
+    display: flex;
+}
+
+.text-body {
+    line-height: 1.5;
+}
+
+.photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+ul {
+    max-width: 1000px;
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width:960px)  {
+    .container {
+        flex-flow: column-reverse;
+    }
+
+    .container-right {
+        align-self: center;
+    }
+}
